@@ -1,0 +1,287 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF9C26E3-6E07-48AA-8833-AC0BCC69E3A3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="11 copy.jpg" />
+    <Content Include="4367375 copy 2.png" />
+    <Content Include="44444444 copy.jpg" />
+    <Content Include="Asset 1%403x.png" />
+    <Content Include="closed-notebook-colored-pencil-leaves-cup-coffee-with-latte-art-white-background %281%29.jpg" />
+    <Content Include="NewFolder1\88.PNG" />
+    <Content Include="r copy 2.jpg" />
+    <Content Include="r copy.jpg" />
+    <Content Include="r copy2.jpg" />
+    <Content Include="Untitled-2.png" />
+    <Content Include="V.png" />
+    <Content Include="הקליקי.png" />
+    <Content Include="לפני קישור.html" />
+    <Content Include="מוטי חלאקה\1.jpg" />
+    <Content Include="מוטי חלאקה\10.jpg" />
+    <Content Include="מוטי חלאקה\11.jpg" />
+    <Content Include="מוטי חלאקה\12.jpg" />
+    <Content Include="מוטי חלאקה\2.jpg" />
+    <Content Include="מוטי חלאקה\3.jpg" />
+    <Content Include="מוטי חלאקה\4.jpg" />
+    <Content Include="מוטי חלאקה\5.jpg" />
+    <Content Include="מוטי חלאקה\6.jpg" />
+    <Content Include="מוטי חלאקה\7.jpg" />
+    <Content Include="מוטי חלאקה\8.jpg" />
+    <Content Include="מוטי חלאקה\9.jpg" />
+    <Content Include="נשלח בהצלחה.jpg" />
+    <Content Include="סתםםם למחוק.html" />
+    <Content Include="עמוד 3.jpg" />
+    <Content Include="קשר.html" />
+    <Content Include="תמונות רחלי\11 copy.jpg" />
+    <Content Include="תמונות רחלי\4 copy.png" />
+    <Content Include="HtmlPage2.html" />
+    <Content Include="NewFolder1\14 copy.png" />
+    <Content Include="NewFolder1\14 copy5.png" />
+    <Content Include="NewFolder1\3.png" />
+    <Content Include="NewFolder1\333.png" />
+    <Content Include="NewFolder1\4 copy.png" />
+    <Content Include="NewFolder1\4.jpg" />
+    <Content Include="NewFolder1\4444.png" />
+    <Content Include="NewFolder1\אליש גורא.png" />
+    <Content Include="NewFolder1\גגג.png" />
+    <Content Include="NewFolder1\חחח.png" />
+    <Content Include="NewFolder1\חל.png" />
+    <Content Include="NewFolder1\י.png" />
+    <Content Include="NewFolder1\ך.png" />
+    <Content Include="NewFolder1\ככ.png" />
+    <Content Include="NewFolder1\לחלחל.png" />
+    <Content Include="NewFolder1\לך.png" />
+    <Content Include="NewFolder1\ןן.png" />
+    <Content Include="NewFolder1\ע.png" />
+    <Content Include="NewFolder1\עעעע.png" />
+    <Content Include="NewFolder1\שש.png" />
+    <Content Include="NewFolder1\תמר ש.png" />
+    <Content Include="rjkh mhkuo.html" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Web.config" />
+    <Content Include="אודות.html" />
+    <Content Include="בב.jpg" />
+    <Content Include="הצלמות שלנו.html" />
+    <Content Include="בית.html" />
+    <Content Include="לוגו\14 copy.png" />
+    <Content Include="לוגו\14 copy5.png" />
+    <Content Include="לוגו\3.png" />
+    <Content Include="לוגו\333.png" />
+    <Content Include="לוגו\4.jpg" />
+    <Content Include="לוגו\4444.png" />
+    <Content Include="לוגו\אליש גורא.png" />
+    <Content Include="לוגו\גגג.png" />
+    <Content Include="לוגו\חחח.png" />
+    <Content Include="לוגו\חל.png" />
+    <Content Include="לוגו\י.png" />
+    <Content Include="לוגו\ך.png" />
+    <Content Include="לוגו\ככ.png" />
+    <Content Include="לוגו\לחלחל.png" />
+    <Content Include="לוגו\לך.png" />
+    <Content Include="לוגו\ןן.png" />
+    <Content Include="לוגו\ע.png" />
+    <Content Include="לוגו\עמוד הצלמות שלנו-Recovered.jpg" />
+    <Content Include="לוגו\עעעע.png" />
+    <Content Include="לוגו\שש.png" />
+    <Content Include="לוגו\תמר ש.png" />
+    <Content Include="לוגוים צלמות\1.jpg" />
+    <Content Include="לוגוים צלמות\10.jpg" />
+    <Content Include="לוגוים צלמות\11.jpg" />
+    <Content Include="לוגוים צלמות\12.jpg" />
+    <Content Include="לוגוים צלמות\13.jpg" />
+    <Content Include="לוגוים צלמות\14.jpg" />
+    <Content Include="לוגוים צלמות\15.jpg" />
+    <Content Include="לוגוים צלמות\16.jpg" />
+    <Content Include="לוגוים צלמות\17.jpg" />
+    <Content Include="לוגוים צלמות\18.jpg" />
+    <Content Include="לוגוים צלמות\2.jpg" />
+    <Content Include="לוגוים צלמות\3.jpg" />
+    <Content Include="לוגוים צלמות\4.jpg" />
+    <Content Include="לוגוים צלמות\5.jpg" />
+    <Content Include="לוגוים צלמות\6.jpg" />
+    <Content Include="לוגוים צלמות\7.jpg" />
+    <Content Include="לוגוים צלמות\8.jpg" />
+    <Content Include="לוגוים צלמות\9.jpg" />
+    <Content Include="לוגוים צלמות\אליש גורא.png" />
+    <Content Include="נשלח.html" />
+    <Content Include="סטייל צלמות.css" />
+    <Content Include="תמונות רחלי\Untitled-1.jpg" />
+    <Content Include="תמונות רחלי\Untitled-2.jpg" />
+    <Content Include="תמונות רחלי\Untitled-3.jpg" />
+    <Content Include="תמונות רחלי\Untitled-4.jpg" />
+    <Content Include="תמונות רחלי\Untitled-5.jpg" />
+    <Content Include="תמונות רחלי\Untitled-6.jpg" />
+    <Content Include="תמונות רחלי\Untitled-7.jpg" />
+    <Content Include="תמונות רחלי\Untitled-8.jpg" />
+    <Content Include="תמונות רחלי\דדדדדד.jpg" />
+    <Content Include="תמונות רחלי\סס.jpg" />
+    <Content Include="צור קשר.html" />
+    <Content Include="תמונות רחלי\11.jpg" />
+    <Content Include="תמונות רחלי\A.jpg" />
+    <Content Include="תמונות רחלי\aaa.jpg" />
+    <Content Include="תמונות רחלי\aaaaa.jpg" />
+    <Content Include="תמונות רחלי\aaaaaaa.jpg" />
+    <Content Include="תמונות רחלי\aaaaaaaaaaaa.jpg" />
+    <Content Include="תמונות רחלי\bnbn.jpg" />
+    <Content Include="תמונות רחלי\IMG_9310 copy.jpg" />
+    <Content Include="תמונות רחלי\IMG_9312.JPG" />
+    <Content Include="תמונות רחלי\Q.jpg" />
+    <Content Include="תמונות רחלי\qq.jpg" />
+    <Content Include="תמונות רחלי\rrrrrrr.jpg" />
+    <Content Include="תמונות רחלי\T %281%29.jpg" />
+    <Content Include="תמונות רחלי\T %282%29.jpg" />
+    <Content Include="תמונות רחלי\אחרי.jpg" />
+    <Content Include="תמונות רחלי\יוד אFFFFFFFFחד copy.jpg" />
+    <Content Include="תמונות רחלי\יוד אחד coddpy.jpg" />
+    <Content Include="תמונות רחלי\יוד אחד.jpg" />
+    <Content Include="תמונות רחלי\ייייי.jpg" />
+    <Content Include="תמונות רחלי\עמוד כתום copy.jpg" />
+    <Content Include="תמונות רחלי\‏‏gnus ,urv copy - עותק.jpg" />
+    <Content Include="תמונות\1.png" />
+    <Content Include="תמונות\111.jpg" />
+    <Content Include="תמונות\2.jpg" />
+    <Content Include="תמונות\240_F_170179825_jHLnyN5lS7gvoHtGChtWb01RktWvZdZ8.jpg" />
+    <Content Include="תמונות\4357378 copy.png" />
+    <Content Include="תמונות\55.jpg" />
+    <Content Include="תמונות\77 copy.jpg" />
+    <Content Include="תמונות\8888888.png" />
+    <Content Include="תמונות\aaaa.png" />
+    <Content Include="תמונות\ch,,.png" />
+    <Content Include="תמונות\llllll.png" />
+    <Content Include="תמונות\oooooo.png" />
+    <Content Include="תמונות\r.jpg" />
+    <Content Include="תמונות\rrrrr.jpg" />
+    <Content Include="תמונות\Untitled-2 copy.jpg" />
+    <Content Include="תמונות\ww2.png" />
+    <Content Include="תמונות\בית-Recovered.png" />
+    <Content Include="תמונות\דף אניה copy.jpg" />
+    <Content Include="תמונות\חח.PNG" />
+    <Content Include="תמונות\יוד אחד aaa.jpg" />
+    <Content Include="תמונות\לוגו.png" />
+    <Content Include="תמונות\למטה 2.jpg" />
+    <Content Include="תמונות\למעלה,למטה copy.jpg" />
+    <Content Include="תמונות\למעלה,למטה.jpg" />
+    <Content Include="תמונות\עדכון.jpg" />
+    <Content Include="תמונות\עמוד הצלמות שלנו copy.jpg" />
+    <Content Include="תמונות\עמוד הצלמות שלנו-Recovered.jpg" />
+    <Content Include="תמונות\עמוד נחל copy.jpg" />
+    <Content Include="תמונות\עמוד פרות copy.jpg" />
+    <Content Include="תמונות\צור קשר.jpg" />
+    <Content Include="תמונות\‏‏בית - עותק.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50728</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50728/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

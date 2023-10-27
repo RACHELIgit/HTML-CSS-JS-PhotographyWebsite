@@ -1,0 +1,155 @@
+﻿* {box-sizing: border-box;}
+body {
+    direction: rtl;
+     margin: 0;
+}
+.my_class {
+    display: grid;
+    grid-template: 
+        "nav nav nav nav" 
+        "article article article article " 
+        "footer footer footer footer";
+    grid-template-rows: 160px 1fr 160px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 0px;
+    height: 100%;
+}
+nav {
+    grid-area: nav;
+    flex-direction: column;
+    display: inline-block;
+    background-image: url('תמונות/למעלה,למטה.jpg');
+    background-attachment: fixed;
+}
+article {
+    grid-area: article;
+}
+
+    footer {
+        grid-area: footer;
+       background-color: aquamarine;
+    }
+.myclass {
+    border: groove;
+   
+}
+
+.mynuv{
+width: 100vw;
+position: relative;
+ /* ---------אופציה  להשאיר קבוע את הלמעלה -----------*/
+/*background-attachment: fixed;
+overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;*/
+}
+
+/* תמונה אתר הבית*/
+#home {
+    width: 100%;
+    margin-bottom: -11%;
+}
+/* מעבר לעמוד הצלמות*/
+.ss:link, .ss:visited {
+    font-family: Courier New;
+    font-size: 20PX;
+    background-color: white;
+    color: rgb(128, 128, 128);
+    padding: 26px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+}
+@media(max-width:600px) {
+    .ss {
+        font-size: 5PX;
+        padding:5px 25px;
+        border-radius: 40px;
+    }
+}
+@media(max-width:800px) {
+    .ss {
+        font-size: 10PX;
+        padding: 10px 50px;
+        border-radius: 40px;
+    }
+}
+
+
+
+.ss:hover, .ss:active {
+    background-color: white;
+    color: rgb(128, 128, 128);
+    opacity: 0.6;
+}
+.ss {
+    margin: -12% 66% 3.5% 0%;
+}
+/* התמונה-הלוגו*/
+.tt{
+    display:inline-block;
+    margin-right:67%;
+    margin-top:2%;
+    width:25%;
+    height:auto;
+}
+/* הדיב של הלוגו*/
+.nuvlogo{
+ position: absolute;
+  top:40%;
+  left:0%;
+ 
+}
+footer {
+    background-color: #373537;
+}
+email {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid 1px #ffbc00;
+    color: #eee;
+    position: relative;
+    z-index: 2;
+    float: right;
+    display: table-cell;
+}
+ng-binding ng-scope{
+    color:white;
+}
+.footer {
+    padding: 50px 0 15px 0;
+    background: #25282d;
+    border-bottom: solid 1px #1b1e23;
+    font-size: 14px;
+    clear: both;
+    z-index: 1;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.to.toto{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.listone {
+    font-family: AmarMF;
+    color: white;
+    display: inline-block;
+}
+@media(max-width:600px) {
+    .nuvlogo {
+        margin-right: 5%;
+    }
+}
+
+

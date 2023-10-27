@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .nuvh a {
+            color: yellow;
+            text-decoration: underline;
+            color: white;
+            margin-left: 22px;
+            margin-bottom: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-family: "ModulariB";
+            font-size: 20px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+
+        * {
+            box-sizing: border-box:
+        }
+
+        body {
+            /*direction: rtl;
+    margin: 0;
+}*/
+            .my_class
+        {
+            display: grid;
+            grid-template: "nav nav nav nav" "article article article article " "footer footer footer footer";
+            grid-template-rows: 160px 1fr 160px;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-gap: 0px;
+            height: 100%;
+        }
+
+        nav {
+            grid-area: nav;
+            flex-direction: column;
+            display: inline-block;
+            background-image: url('תמונות/למעלה,למטה.jpg');
+            background-attachment: fixed;
+        }
+
+        article {
+            grid-area: article;
+        }
+
+        footer {
+            grid-area: footer;
+            height: 100%;
+            background-color: aquamarine;
+        }
+
+        .myclass {
+            border: groove;
+        }
+
+        . /*kk {
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: "ModulariB";
+    font-size: 20px;
+}
+
+    .kk:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+.hh {
+    margin-top: 6.5%;
+    margin-right: 5%;
+}*/
+        .mynuv {
+            width: 100vw;
+            position: relative;
+            /* ---------אופציה  להשאיר קבוע את הלמעלה -----------
+    /*background-attachment: fixed;
+overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;*/
+        }
+
+        /* תמונה אתר הבית*/
+        #home {
+            width: 100%;
+            margin-bottom: -11%;
+        }
+        /*מעבר לעמוד הצלמות
+.ss:link, .ss:visited {
+    font-family: Courier New;
+    font-size: 20PX;
+    background-color: white;
+    color: rgb(128, 128, 128);
+    padding: 26px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+
+.ss:hover, .ss:active {
+    background-color: rgb(128, 128, 128);
+    opacity: 0.8;
+}*/
+
+        .ss {
+            margin: -12% 66% 3.5% 0%;
+        }
+        /* התמונה-הלוגו*/
+        .tt {
+            display: inline-block;
+            margin-right: 67%;
+            margin-top: 2%;
+            width: 25%;
+            height: auto;
+        }
+        /* הדיב של הלוגו*/
+        .nuvlogo {
+            position: absolute;
+            top: 40%;
+            left: 0%;
+        }
+
+        footer {
+            background-color: #373537;
+        }
+
+
+
+        ng-binding ng-scope {
+            color: red;
+        }
+
+        .footer {
+            padding: 50px 0 15px 0;
+            background: #25282d;
+            border-bottom: solid 1px #1b1e23;
+            font-size: 14px;
+            clear: both;
+            z-index: 1;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .to.toto {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            #myImg:hover {
+                opacity: 0.7;
+            }
+
+        .logoname {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            height: 1000px;
+            width: 100px;
+        }
+
+          .nuvh a:hover {
+                color: yellow;
+                text-decoration: underline;
+            }
+
+        .nuvh {
+            margin-right: 4%;
+            margin-top: 6.5%;
+        }
+
+        @media(max-width:800px) {
+            .nuvh {
+                margin-right: 6%;
+                margin-top: 15%;
+            }
+        }
+
+        @media(max-width:600px) {
+            .nuvh {
+                margin-right: 13.5%;
+                margin-top: 55%;
+            }
+
+
+            @media(max-width:600px) {
+                .nuvlogo {
+                    margin-left: 40%;
+                }
+            }
+
+            .row {
+                margin-right: 5%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+
+            .galery {
+                margin-right: 5%;
+            }
+
+            .column {
+                margin-left: 50%;
+                background-size: 100%;
+                flex: 300%;
+                max-width: 300%;
+                padding: 0 0px;
+            }
+
+                .column img {
+                    margin-top: 8px;
+                    vertical-align: middle;
+                }
+
+            .h {
+                font-size: 50%;
+                text-align: center;
+            }
+
+
+            @media (max-width: 800px) {
+                .column {
+                    flex: 150%;
+                    max-width: 150%;
+                }
+
+                .h {
+                    font-size: 40%;
+                    text-align: center;
+                }
+            }
+
+
+
+
+            @media (max-width: 600px) {
+                .column {
+                    flex: 100%;
+                    max-width: 100%;
+                }
+
+                .h {
+                    font-size: 60%;
+                    text-align: center;
+                }
+            }
+        }
+       .nuvh a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="my_class">
+        <header class="header"></header>
+        <nav class="mynuv">
+
+            <div class="nuvlogo">
+                <a href="בית.html">
+                    <img class="tt" src="תמונות/לוגו.png" />
+                </a>
+            </div>
+
+            <div class="nuvh"style="margin-top:7.5%;margin-right:4%" >
+                <a href="אודות.html">אודות</a>
+                <a href="צור קשר.html">צור קשר</a>
+                <a href="הצלמות שלנו.html">הצלמות שלנו</a>
+                <a href="בית.html">עמוד הבית</a>
+            </div>
+
+        </nav>
+        <article style="background-color:#3d3d3d">
+          
+            <img style="width:80%;height:auto;margin-right:11%" src="לוגו/עמוד הצלמות שלנו-Recovered.jpg" />
+            <!--style="background-image: url('תמונות/r.jpg'); background-repeat: no-repeat; background-size: cover; height: 100%; "-->>
+            <!--<div class="h">
+        <h1 style="font-family:Agency FB;
+       color:white;font-size:200%;text-align:center">
+            -----------------our photographer---------------
+        </h1>
+    </div>
+    <div class="galery">
+        <div class="row">
+            <div class="column">
+                <a href="רחלי צילום.html">
+
+
+                    <img src="לוגו/שש.png" style="width:235px ;height:240px " class="image" />
+                </a>
+                <a href="https://1623925.site123.me/">
+
+
+                    <img src="לוגוים צלמות/אליש גורא.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="https://drive.google.com/drive/folders/1aFevCqE2MOVJK5oipznvdYPrjKkGZQYw">
+
+                    <img src="לוגו/ככ.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/14 copy.png" style="width:235px ;height:240px " />
+                </a>
+                <img src="לוגו/14 copy5.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/ך.png" style="width:235px ;height:240px " />
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="HtmlPage2.html">
+
+
+                    <img src="לוגו/3.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+
+                    <img src="לוגו/גגג.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/חחח.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/חל.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+                    <img src="לוגו/י.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/תמר ש.png" style="width:235px ;height:240px " />
+                </a>
+
+            </div>
+
+            <div class="column">
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/14 copy5.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+
+                    <img src="לוגו/לחלחל.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/לך.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/ןן.png" style="width:235px ;height:240px " />
+                </a>
+                <img src="לוגו/ע.png" style="width:235px ;height:240px " />
+                </a>
+                <a href="HtmlPage2.html">
+
+                    <img src="לוגו/עעעע.png" style="width:235px ;height:240px " />
+                </a>
+            </div>
+        </div>
+
+    </div>-->
+        </article>
+        <!--<img id="home" src="תמונות/Untitled-2 copy.jpg" />-->
+        <!--<div class="gg"></div>
+
+
+
+
+        <a class="ss" href="הצלמות שלנו.html">מעבר לכל הצלמות</a>-->
+        <!--<img id="myImg" src="לוגוים צלמות/1.jpg" style="width:100%;max-width:300px">-->
+        <footer>
+            <img style="width: 30%; margin-top: 1%; margin-right:30%;"
+                 class="kkk" src="תמונות/8888888.png" />
+            <div class="poot" style="margin-top: -1%;  margin-right: 45.5%;margin-bottom:20%">
+
+                <a href="צור קשר.html">
+                    <img style="width:4.9%;margin-left:5px;" src="תמונות/aaaa.png" class="lemata" />
+                </a>
+                <a href="צור קשר.html">
+                    <img style=" width: 4.3%;margin-left:3px;" src="תמונות/ww2.png" class="lemata" />
+                </a>
+                <a href="צור קשר.html">
+                    <img style="width: 5%;margin-left:3px;" src="תמונות/llllll.png" class="lemata" />
+                </a>
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+html>

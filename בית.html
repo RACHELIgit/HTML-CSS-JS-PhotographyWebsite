@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color: #414141;
+        }
+        .my_class {
+            display: grid;
+            grid-template: "nav nav nav nav"
+                "article article article article " 
+                "footer footer footer footer";
+            grid-template-rows: 160px 1fr 160px;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-gap: 0px;
+            height: 100%;
+        }
+
+        nav {
+            grid-area: nav;
+            flex-direction: column;
+            display: inline-block;
+            background-image: url('תמונות/למעלה,למטה.jpg');
+            background-attachment: fixed;
+        }
+
+        article {
+            grid-area: article;
+            background-image: url('תמונות/2.jpg');
+            background-size: 100%;
+           
+            height:800px;
+          
+            background-repeat:no-repeat;
+        }
+
+        footer {
+            grid-area: footer;
+            height: 100%;
+            background-color: aquamarine;
+        }
+        .kishur a {
+            color: white;
+            font-family: "ModulariB";
+            font-size: 140%;
+            text-decoration:none;
+            margin-left:3.2%;
+        }
+            .kishur a:hover {
+                color: yellow;
+                text-decoration: underline;
+            }
+            .kishur{
+                margin-left:72%;
+                margin-top:6.9%;
+            }
+            .logo{
+              margin-left:5px;
+              margin-bottom:20%;
+              margin-top:-3.6%;
+               
+            }
+        .rrrr {
+            /*background-image: url('תמונות/2.jpg');*/
+            /*background-origin:padding-box;
+           background-size:cover;*/
+            /*width: 100%;
+            height: 30%;*/
+            margin-top: 40%;
+            width: 80%;
+            margin-left: 3.6%;
+        }
+            .rrrr img {
+                /*font-family: Courier New;
+                font-size: 20PX;
+                background-color: white;
+                color: rgb(128, 128, 128);
+                padding: 26px 60px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 40px;
+                margin-top: 50%;
+                margin-left: 18%;*/
+                width:40%;
+            }
+                .rrrr img:hover {
+                    /*background-color: white;*/
+                    color: rgb(128, 128, 128);
+                    opacity: 0.6;
+                }
+        .flooter {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            color: #fff;
+            white-space: nowrap;
+        }
+      
+        .lemata {
+           margin-left:40%;
+        }
+        .kkk{
+            width:40%;
+            margin-left:40%;
+        }
+        .poot{
+            width:50%;
+            margin-left:48.3%;
+            margin-top:-1.2%;
+        }
+        @media(max-width:600px) {
+            /*.kishur a {
+                font-size: 120%;
+                margin-left: 4%;
+            }*/
+
+            /*.kishur {
+                margin-left:5%;
+            }*/
+
+            .rrrr {
+                width: 200%;
+                height: 100px;
+                margin-top:60%;
+                margin-left:10%;
+              }
+            .poot {
+                width: 200%;
+                margin: 3% 30% ;
+            }
+            .kkk {
+                width: 110%;
+                margin:4% 8.5%; 
+            }
+            .artcle {
+                grid-area: article;
+                background-image: url('תמונות/2.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 300px;
+               
+            }
+          
+                .logo{
+                    width:460%;
+                    margin-bottom:40%;
+                    margin-top:130%;
+                    margin-right:-20%;
+                    margin-left:15%;
+
+                }
+             
+
+           
+        }
+        /*.rrrr {
+            margin-left:50%;
+        }*/
+        @media(max-width:800px) {
+            .kishur {
+                /*margin-right: 12%;*/
+                margin-top: 14%;
+                margin-left: 38%;
+            }
+            }
+        @media(max-width:600px) {
+            .kishur {
+                margin-right: 10%;
+                margin-top: 16%;
+                margin-left:8%;
+            }
+            .rrrr img{
+                margin-right:20%;
+            }
+        }
+
+      
+    </style>
+
+
+</head>
+<body>
+    <div class="my_class">
+        
+        <nav>
+
+            <div class="kishur">
+                <a href="אודות.html">אודות</a>
+                <a href="צור קשר.html">צור קשר</a>
+                <a href="הצלמות שלנו.html">הצלמות שלנו</a>
+                <a href="בית.html">דף הבית</a>
+          
+            </div>
+
+            <div class="logo">
+
+
+                <a href="בית.html">
+                    <img style="width:17%" src="תמונות/לוגו.png" />
+                </a>
+              
+                <!--<img class="hod" style="opacity:0" src="עמוד הצלמות שלנו-Recovered copy.jpg" />-->
+
+            </div>
+            
+
+
+
+        </nav>
+       <article>
+           <div class="rrrr">
+
+               <a href="הצלמות שלנו.html">
+                   <img src="4367375 copy 2.png" />
+               </a>
+           </div>
+       </article>
+       <footer style="background-color:#3d3d3d">
+
+
+           <div style="width:100%" class="flooter">
+
+               <img class="kkk" src="תמונות/8888888.png" />
+
+               <div class="poot">
+
+                   <a href="צור קשר.html">
+                       <img style="width:4.9%;margin-left:5px;" src="תמונות/aaaa.png" class="lemata" />
+                   </a>
+                   <a href="צור קשר.html">
+                       <img style=" width: 4.3%;margin-left:3px;" src="תמונות/ww2.png" class="lemata" />
+                   </a>
+                   <a href="צור קשר.html">
+                       <img style="width: 5%;margin-left:3px;" src="תמונות/llllll.png" class="lemata" />
+                   </a>
+
+               </div>
+
+               <a style="font-size:100%;color:white;text-decoration:none;text-align:center;margin-left:92%;float:left;" href="בית.html">חזרה אל דף הבית</a>
+
+           </div>
+       </footer>
+
+    </div>
+
+
+
+
+</body>
+</html>

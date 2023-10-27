@@ -1,0 +1,416 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input[type=text], input[ type=email ] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid rgb(255, 216, 0);
+            opacity: 0.6;
+        
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: rgb(83, 81, 81);
+            padding: 14px 20px;
+            color:white;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            opacity:0.4;
+            border:double 3px rgb(255, 216, 0);
+        }
+
+            input[type=submit]:hover {
+                background-color: rgb(128, 128, 128);
+            }
+
+        .vvv {
+            width: 40%;
+            margin-top: 2%;
+            margin-right: 5%;
+            direction: rtl;
+            font-family: system-ui;
+          
+        }
+        /*.poot {
+            width: 20%;
+            margin-bottom: 60%;
+            
+        }*/
+
+        .nuvh a {
+            color: yellow;
+            text-decoration: underline;
+            color: white;
+            margin-left: 22px;
+            margin-bottom: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-family: "ModulariB";
+            font-size: 20px;
+        }
+
+            .nuvh a:hover {
+                color: yellow;
+                text-decoration: underline;
+            }
+
+        .nuvh {
+            margin-right: 4%;
+            margin-top: 6.5%;
+        }
+
+        @media(max-width:800px) {
+            .nuvh {
+                margin-right: 6%;
+                margin-top: 15%;
+            }
+        }
+
+        @media(max-width:600px) {
+            .nuvh {
+                margin-right: 13.5%;
+                margin-top: 25%;
+            }
+
+
+            @media(max-width:600px) {
+                .nuvlogo {
+                    margin-left: 40%;
+                }
+            }
+
+            .row {
+                margin-right: 5%;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                vertical-align: middle;
+            }
+
+            .galery {
+                margin-right: 5%;
+            }
+
+            .column {
+                margin-left: 50%;
+                background-size: 100%;
+                flex: 300%;
+                max-width: 300%;
+                padding: 0 0px;
+            }
+
+                .column img {
+                    margin-top: 8px;
+                    vertical-align: middle;
+                }
+
+            .h {
+                font-size: 50%;
+                text-align: center;
+            }
+
+            .poot {
+                width: 20%;
+            }
+
+            @media (max-width: 800px) {
+                .column {
+                    flex: 150%;
+                    max-width: 150%;
+                }
+
+                .h {
+                    font-size: 40%;
+                    text-align: center;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .column {
+                    flex: 100%;
+                    max-width: 100%;
+                }
+                .vvv{
+                    margin-left:3%;
+                }
+
+                    .column img {
+                        width: 300px;
+                    }
+
+                .galery {
+                    margin-right: 13%;
+                    /*width:150%;*/
+                }
+
+                .h {
+                    font-size: 60%;
+                    text-align: center;
+                }
+
+                .row {
+                    text-align: center;
+                }
+
+           
+                /*.kkk {
+                    margin-right: -50%;
+                }*/
+            }
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+
+        * {
+            box-sizing: border-box:
+        }
+
+        body {
+            /*direction: rtl;
+    margin: 0;
+}*/
+            .my_class
+
+        {
+            display: grid;
+            grid-template: "nav nav nav nav" "article article article article " "footer footer footer footer";
+            grid-template-rows: 160px 1fr 160px;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+            grid-gap: 0px;
+            height: 100%;
+        }
+
+        nav {
+            grid-area: nav;
+            flex-direction: column;
+            display: inline-block;
+            background-image: url('תמונות/למעלה,למטה.jpg');
+            background-attachment: fixed;
+        }
+
+        article {
+            grid-area: article;
+        }
+
+        footer {
+            grid-area: footer;
+            height: 100%;
+            background-color: aquamarine;
+        }
+
+        .myclass {
+            border: groove;
+        }
+
+   
+        .mynuv {
+            width: 100vw;
+            position: relative;
+
+        #home {
+            width: 100%;
+            margin-bottom: -11%;
+        }
+        /*מעבר לעמוד הצלמות
+.ss:link, .ss:visited {
+    font-family: Courier New;
+    font-size: 20PX;
+    background-color: white;
+    color: rgb(128, 128, 128);
+    padding: 26px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+
+.ss:hover, .ss:active {
+    background-color: rgb(128, 128, 128);
+    opacity: 0.8;
+}*/
+
+        .ss {
+            margin: -12% 66% 3.5% 0%;
+        }
+        /* התמונה-הלוגו*/
+        .tt {
+            display: inline-block;
+            margin-right: 67%;
+            margin-top: 2%;
+            width: 25%;
+            height: auto;
+        }
+        /* הדיב של הלוגו*/
+        .nuvlogo {
+            position: absolute;
+            top: 40%;
+            left: 0%;
+        }
+        .footer {
+            padding: 50px 0 15px 0;
+            background: #25282d;
+            border-bottom: solid 1px #1b1e23;
+            font-size: 14px;
+            clear: both;
+            z-index: 1;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+
+        footer {
+            background-color: #373537;
+        }
+
+
+
+        ng-binding ng-scope {
+            color: red;
+        }
+
+        .footer {
+            padding: 50px 0 15px 0;
+            background: #25282d;
+            border-bottom: solid 1px #1b1e23;
+            font-size: 14px;
+            clear: both;
+            z-index: 1;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .to.toto {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            #myImg:hover {
+                opacity: 0.7;
+            }
+
+        .logoname {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            height: 1000px;
+            width: 100px;
+        }
+
+        .hom img:hover {
+            background-color: white;
+            opacity: 0.7;
+            border-top: double 1px white;
+        }
+   
+
+
+        .flooter {
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            color: #fff;
+            white-space: nowrap;
+        }
+        /*.kkk {
+           width: 30%;
+           margin: 4% 35%;
+          }*/
+
+        article img:hover {
+            opacity: 0.7;
+            border-top: double 1px white;
+            /*border-top: solid 3px white;
+           border-bottom: solid 3px white;*/
+        }
+
+        .flooter img:hover {
+            opacity: 0.6;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="my_class">
+        <header class="header"></header>
+        <nav class="mynuv">
+
+            <div class="nuvlogo">
+                <a href="בית.html">
+                    <img class="tt" src="תמונות/לוגו.png" />
+                </a>
+            </div>
+
+            <div class="nuvh">
+                <a href="אודות.html">אודות</a>
+                <a href="צור קשר.html">צור קשר</a>
+                <a href="הצלמות שלנו.html">הצלמות שלנו</a>
+                <a href="בית.html">עמוד הבית</a>
+            </div>
+
+        </nav>
+        <article style="  color: antiquewhite;background-image: url('r copy 2.jpg'); background-repeat: no-repeat; background-size: cover;height: 100%; ">
+            <div class="vvv">
+                <form class="w3-container" action="קשר.html">
+                    <label for="fname">שם פרטי</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="lname">שם משפחה</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <label for="meil">כתובת מייל</label>
+                    <input type="email" id="meil" name="meil" required><br />
+                    <label for="nb">הערות</label>
+                    <input style="border:solid 2px black;border-radius:5px;height:150px;" type="text" id="lname" name="lname">
+
+                    <input type="submit" value="שלח">
+                </form>
+            </div>
+            <a href="בית.html">
+                <img class="hom" style="width:20%;margin-right:80%;margin-top:-20%;" src="Untitled-2.png" />
+            </a>
+        </article>
+        <footer>
+            <img style="width: 30%; margin-top: 1%; margin-right:30%;"
+                 class="kkk" src="תמונות/8888888.png" />
+            <div class="poot" style="margin-top: -1%;  margin-right: 45.5%;margin-bottom:20%">
+
+                <a href="צור קשר.html">
+                    <img style="width:4.9%;margin-left:5px;" src="תמונות/aaaa.png" class="lemata" />
+                </a>
+                <a href="צור קשר.html">
+                    <img style=" width: 4.3%;margin-left:3px;" src="תמונות/ww2.png" class="lemata" />
+                </a>
+                <a href="צור קשר.html">
+                    <img style="width: 5%;margin-left:3px;" src="תמונות/llllll.png" class="lemata" />
+                </a>
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+
